@@ -142,4 +142,5 @@ python -m unittest discover -s tests -v
 Testy sprawdzają zasady ruchu, losowanie i powtarzalność plansz, postęp
 kampanii, limity programu, skróty klawiaturowe oraz działanie interfejsu
 w trybach standardowym, turbo i ultra. Testy interfejsu otwierają okna
-Tkintera, dlatego wymagają sesji graficznej.
+Tkintera, dlatego wymagają sesji graficznej. GitHub Actions uruchamia je
+na Ubuntu z wirtualnym ekranem.

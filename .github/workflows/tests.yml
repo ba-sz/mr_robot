@@ -1,0 +1,32 @@
+name: Python tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    name: Python 3.12 unit tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Python, Tk, and virtual display
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends --yes \
+            python3.12 python3.12-tk xvfb xauth
+
+      - name: Run unit tests
+        run: |
+          xvfb-run --auto-servernum \
+            --server-args="-screen 0 1280x1024x24" \
+            /usr/bin/python3.12 -m unittest discover -s tests -v
