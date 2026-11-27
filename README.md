@@ -10,6 +10,14 @@ Python 3.10 lub nowszy z dostępnym Tkinterem. Uruchom polecenia z katalogu
 projektu. Gra korzysta ze standardowej biblioteki Pythona i nie wymaga
 instalowania pakietów zewnętrznych.
 
+### Gotowa paczka dla macOS
+
+[Pobierz aplikację macOS Intel](https://github.com/ba-sz/mr_robot/releases/download/v1.0.0/Misja-Programista-macOS-x86_64.zip).
+Paczka nie wymaga instalacji Pythona. Została przetestowana na macOS 12.7.6
+z procesorem Intel; na Apple Silicon wymaga Rosetta 2. Przy pierwszym
+uruchomieniu macOS może poprosić o potwierdzenie otwarcia aplikacji pobranej
+z internetu — instrukcja znajduje się w archiwum.
+
 ## Gra w Pythonie
 
 ```bash
