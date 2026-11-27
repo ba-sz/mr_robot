@@ -1,5 +1,7 @@
 """Mechanika robota, wspólna dla prezentacji i gry."""
 
+from __future__ import annotations
+
 from collections import deque
 from collections.abc import Collection
 from dataclasses import dataclass
