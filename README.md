@@ -143,3 +143,20 @@ Testy sprawdzają zasady ruchu, losowanie i powtarzalność plansz, postęp
 kampanii, limity programu, skróty klawiaturowe oraz działanie interfejsu
 w trybach standardowym, turbo i ultra. Testy interfejsu otwierają okna
 Tkintera, dlatego wymagają sesji graficznej.
+
+## Projekty Scratch
+
+Pliki `.sb3` otwórz w Scratch Desktop: wybierz **Plik → Wczytaj z komputera**.
+Projekty są zapisane w formacie Scratch 3.0.
+
+| Plik | Zawartość |
+| --- | --- |
+| [01_Urodzinowa_misja.sb3](Scratch_Urodzinowa_Misja/projekty/01_Urodzinowa_misja.sb3) | Główna gra urodzinowa: wybór ekipy, łapanie balonów, obrazkowy szyfr i własny finał. |
+| [02_Zepsuty_balon.sb3](Scratch_Urodzinowa_Misja/projekty/02_Zepsuty_balon.sb3) | Wersja z celowym błędem w ruchu balonu do ćwiczenia diagnozowania i poprawiania kodu. |
+| [03_Studio_przyjecia.sb3](Scratch_Urodzinowa_Misja/projekty/03_Studio_przyjecia.sb3) | Studio do dalszej zabawy: zmiana finałowego tańca i reguł gry. |
+| [04_Slonce_start.sb3](Scratch_Urodzinowa_Misja/projekty/04_Slonce_start.sb3) | Projekt startowy do zbudowania animacji wschodu i zachodu Słońca. |
+| [05_Slonce_gotowe.sb3](Scratch_Urodzinowa_Misja/projekty/05_Slonce_gotowe.sb3) | Gotowy przykład animacji Słońca do obejrzenia lub porównania z projektem startowym. |
+
+Pierwsze trzy pliki dotyczą głównej tajnej misji urodzinowej; dwa ostatnie
+stanowią osobny, opcjonalny warsztat „Misja Słońce”. Wersja `02_Zepsuty_balon`
+jest celowo uszkodzona i służy do ćwiczenia naprawy, nie jako gotowa gra.
