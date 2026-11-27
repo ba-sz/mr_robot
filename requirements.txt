@@ -1,0 +1,2 @@
+# The robot game uses only the Python standard library and Tkinter.
+# No third-party Python packages are required to run it.
