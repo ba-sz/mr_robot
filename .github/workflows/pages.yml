@@ -28,6 +28,9 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Check PWA JavaScript syntax
+        run: node --check app.js
+
       - name: Prepare site files
         run: |
           mkdir -p site/Scratch_Urodzinowa_Misja/projekty
