@@ -41,6 +41,7 @@ const ui = {
   playerSlot: document.querySelector("#playerSlot"),
   loadProject: document.querySelector("#loadProject"),
   openPlayer: document.querySelector("#openPlayer"),
+  experimentProject: document.querySelector("#experimentProject"),
   installHelp: document.querySelector("#installHelp"),
   installDialog: document.querySelector("#installDialog"),
 };
@@ -472,7 +473,11 @@ function setScratchProject(filename) {
   });
   const projectUrl = new URL(`./Scratch_Urodzinowa_Misja/projekty/${encodeURIComponent(filename)}`, window.location.href).href;
   const playerUrl = `https://turbowarp.org/embed?project_url=${encodeURIComponent(projectUrl)}&autoplay`;
+  const editorUrl = new URL("https://turbowarp.org/editor");
+  editorUrl.searchParams.set("project_url", projectUrl);
+  editorUrl.searchParams.set("project_title", SCRATCH_PROJECTS[filename]);
   ui.openPlayer.href = playerUrl;
+  ui.experimentProject.href = editorUrl.href;
   ui.playerSlot.innerHTML = "";
   const loadButton = document.createElement("button");
   loadButton.className = "load-project";

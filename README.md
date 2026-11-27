@@ -16,6 +16,11 @@ instalowania pakietów zewnętrznych.
 **Udostępnij → Dodaj do ekranu początkowego** i uruchamiaj ją jak aplikację.
 Nie potrzeba Apple ID, TestFlight ani instalacji z App Store. Gra robota działa
 offline po pierwszym otwarciu; projekty Scratch w playerze wymagają internetu.
+Wersja webowa jest mobilnym portem, nie kopią wyglądu Tkintera: zamiast globalnych
+skrótów klawiaturowych używa dużych kontrolek dotykowych i układu dopasowanego do
+telefonu; zasady gry i tryby pozostają takie same. W zakładce Scratch przycisk
+**Player** uruchamia projekt, a **Eksperymentuj** otwiera go z blokami kodu w
+edytorze TurboWarp. Edycja wymaga internetu, ale nie konta Scratch.
 
 ### Gotowa paczka dla macOS
 
