@@ -1,0 +1,20 @@
+{
+  "name": "Misja Programista",
+  "short_name": "Misja",
+  "description": "Gra w robota i projekty Scratch dla klasy 1D.",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fffaf0",
+  "theme_color": "#17233c",
+  "icons": [
+    {
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

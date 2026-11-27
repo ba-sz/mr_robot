@@ -10,6 +10,13 @@ Python 3.10 lub nowszy z dostępnym Tkinterem. Uruchom polecenia z katalogu
 projektu. Gra korzysta ze standardowej biblioteki Pythona i nie wymaga
 instalowania pakietów zewnętrznych.
 
+### Na iPhonie bez TestFlight
+
+[Otwórz Misja Programista](https://ba-sz.github.io/mr_robot/) w Safari, stuknij
+**Udostępnij → Dodaj do ekranu początkowego** i uruchamiaj ją jak aplikację.
+Nie potrzeba Apple ID, TestFlight ani instalacji z App Store. Gra robota działa
+offline po pierwszym otwarciu; projekty Scratch w playerze wymagają internetu.
+
 ### Gotowa paczka dla macOS
 
 [Pobierz aplikację macOS Intel](https://github.com/ba-sz/mr_robot/releases/download/v1.0.0/Misja-Programista-macOS-x86_64.zip).
