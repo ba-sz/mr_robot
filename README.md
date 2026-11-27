@@ -155,8 +155,15 @@ na Ubuntu z wirtualnym ekranem.
 
 ## Projekty Scratch
 
-Pliki `.sb3` otwórz w Scratch Desktop: wybierz **Plik → Wczytaj z komputera**.
-Projekty są zapisane w formacie Scratch 3.0.
+Nie trzeba instalować Scratch Desktop. Darmowy edytor działa w przeglądarce i
+wymaga połączenia z internetem. [Pobierz projekty, karty pracy i prezentację](https://github.com/ba-sz/mr_robot/releases/download/v1.1.0/Misja-Scratch-1.1.0.zip),
+otwórz [edytor Scratch](https://scratch.mit.edu/projects/editor/), a następnie
+wybierz **Plik → Wczytaj z komputera** i wskaż plik `.sb3`. Do wczytania i
+uruchomienia projektu nie trzeba konta. Zmiany można zapisać przez
+**Plik → Zapisz na swoim komputerze**; publikacja projektu na Scratch wymaga
+konta.
+
+Pliki są zapisane w formacie Scratch 3.0.
 
 | Plik | Zawartość |
 | --- | --- |
